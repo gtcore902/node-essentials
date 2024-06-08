@@ -6,6 +6,7 @@
     "eslint-plugin-import": "^2.29.0"
   },
   "dependencies": {
+    "express": "^4.19.2",
     "prettier": "^3.1.0"
   },
   "workspaces": [
@@ -16,5 +17,15 @@
     "nodejs-intro",
     "nodejs-intro-esm",
     "nodejs-route"
-  ]
+  ],
+  "name": "essentials",
+  "description": "---\r page_type: sample\r name: Build JavaScript applications with Node.js\r languages:\r - javascript\r products:\r - azure\r - vs-code\r ---\r # Node essentials",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
